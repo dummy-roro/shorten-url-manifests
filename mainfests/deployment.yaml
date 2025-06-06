@@ -23,7 +23,5 @@ spec:
             cpu: "500m"
         ports:
         - containerPort: 8080
-    imagePullSecrets:
-    - name: github-container-registry
-    
-
+      imagePullSecrets:
+      - name: github-container-registry
