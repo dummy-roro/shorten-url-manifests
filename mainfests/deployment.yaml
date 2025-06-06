@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: shorturl-app
-        image: ghcr.io/dummy-roro/golang-shorten-url:0d7a087f5e1778281350e8f8e07ee31f55f497ec
+        image: ghcr.io/dummy-roro/golang-shorten-url:f8c9dc7d6d9bdfcd76cbdae5c3fbedc692a0a731
         resources:
           limits:
             memory: "128Mi"
